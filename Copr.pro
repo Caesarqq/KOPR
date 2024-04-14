@@ -16,12 +16,18 @@ SOURCES += \
         aboutdialog.cpp \
         connectionsettingsdialog.cpp \
         enddialog.cpp \
+        logindialog.cpp \
         main.cpp\
         mainwindow.cpp
 
 HEADERS  += mainwindow.h \
     aboutdialog.h \
+<<<<<<< HEAD
     connectionsettingsdialog.h \
     enddialog.h
+=======
+    enddialog.h \
+    logindialog.h
+>>>>>>> ef06c7026cc3bf54404f648df4dcabdc578d8cb0
 
 FORMS    += mainwindow.ui
