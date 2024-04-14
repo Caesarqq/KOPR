@@ -15,11 +15,13 @@ TEMPLATE = app
 SOURCES += \
         aboutdialog.cpp \
         enddialog.cpp \
+        logindialog.cpp \
         main.cpp\
         mainwindow.cpp
 
 HEADERS  += mainwindow.h \
     aboutdialog.h \
-    enddialog.h
+    enddialog.h \
+    logindialog.h
 
 FORMS    += mainwindow.ui

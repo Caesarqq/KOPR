@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "aboutdialog.h"
 #include "enddialog.h"
+#include "logindialog.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -26,4 +27,8 @@ void MainWindow::on_action_end_triggered() {
     dialog->setAttribute(Qt::WA_DeleteOnClose); // Убедитесь, что диалог будет удален после закрытия
     dialog->exec();
 }
-
+void MainWindow::on_action_3_triggered() {
+    LoginDialog *loginDialog = new LoginDialog(this);
+    loginDialog->setAttribute(Qt::WA_DeleteOnClose);
+    loginDialog->exec();
+}
