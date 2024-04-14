@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "aboutdialog.h"
 #include "enddialog.h"
+#include "connectionsettingsdialog.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -18,12 +19,16 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_action_about_triggered() {
     AboutDialog *dialog = new AboutDialog(this);
-    dialog->setAttribute(Qt::WA_DeleteOnClose); // Убедитесь, что диалог будет удален после закрытия
+    dialog->setAttribute(Qt::WA_DeleteOnClose);
     dialog->exec();
 }
 void MainWindow::on_action_end_triggered() {
     EndDialog *dialog = new EndDialog(this);
-    dialog->setAttribute(Qt::WA_DeleteOnClose); // Убедитесь, что диалог будет удален после закрытия
+    dialog->setAttribute(Qt::WA_DeleteOnClose);
     dialog->exec();
 }
-
+void MainWindow::on_action_2_triggered() {
+    ConnectionSettingsDialog *dialog = new ConnectionSettingsDialog(this);
+    dialog->setAttribute(Qt::WA_DeleteOnClose);
+    dialog->exec();
+}

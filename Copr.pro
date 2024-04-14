@@ -14,12 +14,14 @@ TEMPLATE = app
 
 SOURCES += \
         aboutdialog.cpp \
+        connectionsettingsdialog.cpp \
         enddialog.cpp \
         main.cpp\
         mainwindow.cpp
 
 HEADERS  += mainwindow.h \
     aboutdialog.h \
+    connectionsettingsdialog.h \
     enddialog.h
 
 FORMS    += mainwindow.ui
