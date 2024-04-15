@@ -11,23 +11,23 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = Copr
 TEMPLATE = app
 
-
 SOURCES += \
         aboutdialog.cpp \
         connectionsettingsdialog.cpp \
         enddialog.cpp \
         logindialog.cpp \
-        main.cpp\
+        main.cpp \
         mainwindow.cpp
 
-HEADERS  += mainwindow.h \
+HEADERS  += \
+    mainwindow.h \
     aboutdialog.h \
-<<<<<<< HEAD
     connectionsettingsdialog.h \
-    enddialog.h
-=======
     enddialog.h \
     logindialog.h
->>>>>>> ef06c7026cc3bf54404f648df4dcabdc578d8cb0
 
-FORMS    += mainwindow.ui
+FORMS    += \
+    mainwindow.ui
+
+DISTFILES += \
+    Copr.pro.user
