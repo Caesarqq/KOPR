@@ -1180,14 +1180,14 @@ border-right: 1px solid #d6d9dc;
       <attribute name="horizontalHeaderCascadingSectionResizes">
        <bool>false</bool>
       </attribute>
+      <attribute name="horizontalHeaderMinimumSectionSize">
+       <number>38</number>
+      </attribute>
       <attribute name="horizontalHeaderDefaultSectionSize">
        <number>182</number>
       </attribute>
       <attribute name="horizontalHeaderHighlightSections">
        <bool>true</bool>
-      </attribute>
-      <attribute name="horizontalHeaderMinimumSectionSize">
-       <number>38</number>
       </attribute>
       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
        <bool>true</bool>
@@ -1217,9 +1217,6 @@ border-right: 1px solid #d6d9dc;
          <pointsize>11</pointsize>
         </font>
        </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
       </column>
       <column>
        <property name="text">
@@ -1229,9 +1226,6 @@ border-right: 1px solid #d6d9dc;
         <font>
          <pointsize>11</pointsize>
         </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
        </property>
       </column>
       <column>
@@ -1243,9 +1237,6 @@ border-right: 1px solid #d6d9dc;
          <pointsize>11</pointsize>
         </font>
        </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
       </column>
       <column>
        <property name="text">
@@ -1255,9 +1246,6 @@ border-right: 1px solid #d6d9dc;
         <font>
          <pointsize>11</pointsize>
         </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
        </property>
       </column>
       <column>
@@ -1269,9 +1257,6 @@ border-right: 1px solid #d6d9dc;
          <pointsize>11</pointsize>
         </font>
        </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
       </column>
       <column>
        <property name="text">
@@ -1281,9 +1266,6 @@ border-right: 1px solid #d6d9dc;
         <font>
          <pointsize>11</pointsize>
         </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
        </property>
       </column>
       <column>
@@ -1295,9 +1277,6 @@ border-right: 1px solid #d6d9dc;
          <pointsize>11</pointsize>
         </font>
        </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
       </column>
       <column>
        <property name="text">
@@ -1307,9 +1286,6 @@ border-right: 1px solid #d6d9dc;
         <font>
          <pointsize>11</pointsize>
         </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
        </property>
       </column>
       <column>
@@ -1321,9 +1297,6 @@ border-right: 1px solid #d6d9dc;
          <pointsize>11</pointsize>
         </font>
        </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
-       </property>
       </column>
       <column>
        <property name="text">
@@ -1333,9 +1306,6 @@ border-right: 1px solid #d6d9dc;
         <font>
          <pointsize>11</pointsize>
         </font>
-       </property>
-       <property name="textAlignment">
-        <set>AlignCenter</set>
        </property>
       </column>
       <item row="0" column="0">
@@ -1457,11 +1427,11 @@ border-right: 1px solid #d6d9dc;
        <attribute name="horizontalHeaderCascadingSectionResizes">
         <bool>false</bool>
        </attribute>
-       <attribute name="horizontalHeaderDefaultSectionSize">
-        <number>157</number>
-       </attribute>
        <attribute name="horizontalHeaderMinimumSectionSize">
         <number>38</number>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>157</number>
        </attribute>
        <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
         <bool>false</bool>
@@ -1634,11 +1604,11 @@ border-right: 1px solid #d6d9dc;
        <attribute name="horizontalHeaderCascadingSectionResizes">
         <bool>false</bool>
        </attribute>
-       <attribute name="horizontalHeaderDefaultSectionSize">
-        <number>115</number>
-       </attribute>
        <attribute name="horizontalHeaderMinimumSectionSize">
         <number>38</number>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>115</number>
        </attribute>
        <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
         <bool>false</bool>
@@ -1745,7 +1715,6 @@ border-right: 1px solid #d6d9dc;
         </property>
         <property name="font">
          <font>
-          <weight>50</weight>
           <bold>false</bold>
          </font>
         </property>
@@ -2474,7 +2443,7 @@ border-right: 1px solid #d6d9dc;
      <x>0</x>
      <y>0</y>
      <width>1920</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="styleSheet">

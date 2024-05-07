@@ -4,7 +4,7 @@
 #include "enddialog.h"
 #include "connectionsettingsdialog.h"
 #include "logindialog.h"
-
+#include "RegisterDialog.h"
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -33,8 +33,16 @@ void MainWindow::on_action_2_triggered() {
     dialog->setAttribute(Qt::WA_DeleteOnClose);
     dialog->exec();
 }
+
+
 void MainWindow::on_action_3_triggered() {
     LoginDialog *loginDialog = new LoginDialog(this);
     loginDialog->setAttribute(Qt::WA_DeleteOnClose);
     loginDialog->exec();
+}
+
+void MainWindow::on_action_7_triggered() {
+    RegisterDialog *registerDialog = new RegisterDialog(this);
+    registerDialog->setAttribute(Qt::WA_DeleteOnClose);
+    registerDialog->exec();
 }

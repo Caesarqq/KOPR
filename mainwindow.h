@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QMessageBox>
 
+
 namespace Ui {
 class MainWindow;
 }
@@ -25,6 +26,7 @@ private slots:
 
     void on_action_3_triggered();
 
+    void on_action_7_triggered();
 private:
     Ui::MainWindow *ui;
 };
